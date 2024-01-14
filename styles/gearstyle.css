@@ -111,6 +111,30 @@ nav h3 {
     background-size: cover;
 }
 
+/* main styles */
+
+.e-mart{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 120px;
+}
+
+.e-mart img{
+    width: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* mobile screen used media query for  */
 @media screen and (max-width:576px) {
     nav,
@@ -156,5 +180,10 @@ nav h3 {
     }
     .banner-description{
         margin-top: 50px;
+    }
+    .e-mart{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 30px;
     }
 }
